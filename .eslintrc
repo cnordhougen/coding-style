@@ -74,7 +74,11 @@
         "computed-property-spacing":     "error",
         "curly":                         "error",
         "eol-last":                      "error",
-        "indent":                        [ "error", 4 ],
+        "indent":                        [
+            "error",
+            4,
+            { "SwitchCase": 1 }
+        ],
         "key-spacing":                   [ "error", { "align": "value" } ],
         "keyword-spacing":               "error",
         "linebreak-style":               [ "error", "unix" ],
