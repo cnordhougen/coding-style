@@ -8,6 +8,9 @@
         "sourceType": "module"
     },
     "rules": {
+        // Possible Errors
+        "no-irregular-whitespace": [ "error", { "skipComments": true } ],
+
         // Best Practices
         "array-callback-return": "error",
         "dot-location":          [ "error", "property" ],
