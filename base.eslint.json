@@ -57,14 +57,20 @@
         "no-use-before-define": "error",
 
         // Stylistic
-        "array-bracket-spacing":         [ "error", "always" ],
-        "block-spacing":                 "error",
-        "brace-style":                   "error",
-        "comma-spacing":                 "error",
-        "computed-property-spacing":     "error",
-        "curly":                         "error",
-        "eol-last":                      "error",
-        "indent":                        [ "error", 4 ],
+        "array-bracket-spacing":     [ "error", "always" ],
+        "block-spacing":             "error",
+        "brace-style":               "error",
+        "comma-spacing":             "error",
+        "computed-property-spacing": "error",
+        "curly":                     "error",
+        "eol-last":                  "error",
+        "indent":                    [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
         "key-spacing":                   [ "error", { "align": "value" } ],
         "keyword-spacing":               "error",
         "linebreak-style":               [ "error", "unix" ],
@@ -80,7 +86,7 @@
         "no-trailing-spaces":            "error",
         "no-whitespace-before-property": "error",
         "object-curly-spacing":          [ "error", "always" ],
-        "one-var":                       "error",
+        "one-var":                       "off",
         "quotes":                        [ "error", "single" ],
         "semi":                          "error",
         "semi-spacing":                  "error",
