@@ -18,7 +18,7 @@
         "object-shorthand":       "error",
         "prefer-arrow-callback":  "warn",
         "prefer-const":           "warn",
-        "prefer-reflect":         "warn",
+        "prefer-reflect":         "off",
         "prefer-rest-params":     "error",
         "prefer-spread":          "error",
         "require-yield":          "error",
