@@ -98,11 +98,7 @@
                 "named":     "never"
             }
         ],
-        "space-in-parens": [
-            "error",
-            "always",
-            { "exceptions": [ "empty" ] }
-        ],
+        "space-in-parens": [ "error", "never" ],
         "space-infix-ops": "error"
     }
 }
