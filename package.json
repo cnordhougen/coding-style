@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/cnordhougen/coding-style/issues"
   },
-  "homepage": "https://github.com/cnordhougen/coding-style#readme"
+  "homepage": "https://github.com/cnordhougen/coding-style#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "eslint": "~3.19.0",
+    "eslint-plugin-import": "github:cnordhougen/eslint-plugin-import"
+  }
 }
